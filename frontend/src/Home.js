@@ -1,12 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./components/Header";
-import Footer from './components/Footer';
+import Search from "./components/Search";
 
 function Home() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <Search />
     </div>
   );
 }

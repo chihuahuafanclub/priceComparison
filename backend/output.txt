@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="zh-tw" http-equiv="Content-Language"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="CPfgp1JzxusG1iSc" name="baidu-site-verification"/>
+  <link href="https://ecshweb.pchome.com.tw/search/v3.3/" rel="canonical"/>
+  <link href="https://24h.m.pchome.com.tw/prod/search/" rel="alternate"/>
+  <title>
+   PChome 24h購物 - 商品搜尋
+  </title>
+  <link href="/opensearch_shopping.xml" rel="search" title="PChome 24h購物 商品搜尋" type="application/opensearchdescription+xml">
+   <link href="https://cs-e.ecimg.tw/img/icon/24-64x64.ico" rel="apple-touch-icon" sizes="64x64" type="image/x-icon">
+    <link href="https://cs-e.ecimg.tw/img/icon/24-64x64.ico" rel="icon" sizes="64x64" type="image/x-icon"/>
+    <link href="https://cs-e.ecimg.tw/img/icon/24-32x32.ico" rel="icon" sizes="32x32" type="image/x-icon"/>
+    <link href="https://cs-e.ecimg.tw/img/icon/24-16x16.ico" rel="icon" sizes="16x16" type="image/x-icon"/>
+    <link href="https://cs-d.ecimg.tw/img/min/ecshweb/css/ecshweb-shv3.3-css-20230323153429.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cs-d.ecimg.tw/img/min/ecshweb/js/v3.3shjs-20230608150418.js" type="text/javascript">
+    </script>
+    <!-- setting Optimize -->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-K6J937F" type="text/javascript">
+    </script>
+    <!-- setting Optimize -->
+    <!-- setting Manager -->
+    <script>
+     var isItemLimit  = 0 ;
+var isShowRecord = 1 ;
+var arrGCSPic    = ["cs-a", "cs-b", "cs-c", "cs-d", "cs-e", "cs-f"] ;
+var arrSoldOut   = [] ;
+var arrReserve   = [] ;
+var arrMCRCate   = [80,87,89,495,505,506,729,779,780,782,783,784,785,802,863,865,867,944,945,949,950,1133,1134,1135,1141,1206,1248,1280,1329,1391,1392,1394,1395,1396,1397,1398,928,929,930,1131,1132,1136,1399,1400,1401,1402,1403,1404,1405,263,412] ;
+
+var CloudSet   = {
+    'startDtm' : '2021/11/05 14:00:00',
+    'endDtm'   : '2022/01/25 10:00:00',
+    'arrRange' : ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+} ;
+
+var SwitchTool = {
+    'prodapi_main'    : 'domain_cloudflare',
+    'prodapi_button'  : 'domain_cloudflare',
+    'prodapi_gift'    : 'domain_cloudflare',
+    'prodapi_spec'    : 'domain_cloudflare',
+    'prodapi_promo'   : 'domain_cloudflare',
+    'prodapi_coupons' : 'domain_cloudflare',
+    'cateapi_store'   : 'domain_cloudflare',
+    'cateapi_region'  : 'domain_cloudflare',
+    'adskeyword'      : 'domain_cloudflare',
+    'cart_snapup'     : 'domain_ecssl',
+    'cart_modify'     : 'domain_ecssl'
+} ;
+    </script>
+    <!-- End setting Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+     if (!SearchBot.isBot)
+{
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TKSM5PF');
+}
+    </script>
+    <!-- End Google Tag Manager -->
+   </link>
+  </link>
+ </head>
+ <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-TKSM5PF" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="ecsite-layout style_shopping ecsite-search" id="WRAPPER">
+   <!-- HEADER start -->
+   <div id="HEADER">
+    <div class="block_H">
+     <div class="Ht">
+      <h1 class="logotype">
+       <a href="https://shopping.pchome.com.tw">
+        PChome 24h購物
+       </a>
+      </h1>
+      <div class="site_nav">
+       <ul class="main_site" id="MainSiteContainer">
+       </ul>
+       <ul class="service" id="ServiceContainer">
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- HEADER end -->
+   <div class="layout-wrapper" id="CONTENT">
+    <div class="layout-center">
+     <!-- block_N start -->
+     <div class="block_N">
+      <div class="Nt">
+       <ul class="breadcrumbs">
+        <li>
+         <a href="https://www.pchome.com.tw">
+          PChome
+         </a>
+        </li>
+        <li>
+         <a href="https://shopping.pchome.com.tw">
+          線上購物
+         </a>
+        </li>
+        <li>
+         <span>
+          商品搜尋結果
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="Nm">
+       <ul class="searchfield">
+        <li>
+         <input class="text" id="keyword" placeholder="請輸入關鍵字" type="text"/>
+        </li>
+        <li>
+         <input class="button" id="btn_search" type="button" value="找商品"/>
+        </li>
+        <li>
+         <a href="https://ecvip.pchome.com.tw/?m=myaccount&amp;c=service&amp;f=showSearchService">
+          買不到通知我！
+         </a>
+        </li>
+       </ul>
+       <div class="msg_box">
+        <span id="SearchInfo">
+        </span>
+       </div>
+      </div>
+      <div class="Nb">
+       <p class="unblock">
+        您是不是要查：
+        <span id="SpellCheckContainer">
+        </span>
+       </p>
+       <ul class="keyword_box" id="TagsContainer">
+       </ul>
+      </div>
+     </div>
+     <!-- block_N end -->
+     <!-- block_W start -->
+     <dl class="block_W">
+      <dt>
+       依館別顯示↓
+      </dt>
+      <dd id="CategoryContainer">
+      </dd>
+     </dl>
+     <!-- block_W end -->
+     <!-- block_C start -->
+     <div class="block_C s_list">
+      <!-- Cm start -->
+      <div class="Cm">
+       <div class="Cm_N">
+        <div class="bar_showmode" id="SwitchBar">
+         <dl class="left">
+          <dt>
+           搜尋：
+          </dt>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            全部
+           </a>
+          </dd>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            24h購物
+           </a>
+          </dd>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            24h書店
+           </a>
+          </dd>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            廠商出貨
+           </a>
+          </dd>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            PChome旅遊
+           </a>
+          </dd>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            PChome泰國
+           </a>
+          </dd>
+          <dd class="Scope">
+           <a href="javascript:void(0);">
+            日本Mercari代購
+           </a>
+          </dd>
+         </dl>
+         <dl class="right">
+          <dt>
+           排序：
+          </dt>
+          <dd class="Sort">
+           <a href="javascript:void(0);">
+            綜合排序
+           </a>
+          </dd>
+          <dd class="Sort">
+           <a href="javascript:void(0);">
+            價錢由高至低
+           </a>
+          </dd>
+          <dd class="Sort">
+           <a href="javascript:void(0);">
+            價錢由低至高
+           </a>
+          </dd>
+          <dd class="Sort">
+           <a href="javascript:void(0);">
+            新上市
+           </a>
+          </dd>
+         </dl>
+        </div>
+        <div class="bar_filter" id="FilterBar">
+         篩選：
+         <ul class="check_box">
+          <li>
+           <label>
+            <input _filter="cvs" name="filter" type="checkbox" value="all">
+             超商取貨
+            </input>
+           </label>
+          </li>
+          <li>
+           <label>
+            <input _filter="ipost" name="filter" type="checkbox" value="Y">
+             i 郵箱取貨
+            </input>
+           </label>
+          </li>
+          <li>
+           <label>
+            <input _filter="sale" name="filter" type="checkbox" value="Y"/>
+            只顯示有貨商品
+           </label>
+          </li>
+         </ul>
+        </div>
+        <div class="bar_spinbtn">
+         價格範圍：
+         <input class="text" id="MinPrice" type="text"/>
+         ～
+         <input class="text" id="MaxPrice" type="text"/>
+         <input class="button" id="btn_PRC" type="button" value="搜尋"/>
+        </div>
+        <div class="bar_noprod unblock" id="notfound_cate">
+         本類別搜尋不到您要的商品！
+        </div>
+        <div class="bar_noprod unblock" id="notfound">
+         找不到與
+         <span class="value" id="noprod">
+         </span>
+         有關的產品
+        </div>
+        <div class="bar_noprod unblock" id="notMustfound">
+         找不到與
+         <span class="value" id="notMustprod">
+         </span>
+         完全符合的商品，以下是相似的搜尋商品。
+        </div>
+       </div>
+       <div class="Cm_C" id="ItemContainer">
+       </div>
+      </div>
+      <!-- Cm -->
+      <!-- Cb -->
+      <div class="Cb">
+       <div class="ui-loading unblock" id="DataLoader">
+        <ul>
+         <li class="loading bert">
+          讀取中
+         </li>
+        </ul>
+       </div>
+       <!-- pagination start -->
+       <div class="pagination">
+        <div class="msg_box unblock" id="MoreInfo">
+         由於搜尋結果筆數較多，建議您調整排序方式 或 篩選商品分類
+         <a class="goTop" href="javascript:void(0);">
+          回頂部設定↑
+         </a>
+        </div>
+       </div>
+       <!-- pagination end -->
+      </div>
+     </div>
+     <!-- block_C end -->
+     <!-- block_S start -->
+     <div class="block_S go_top" id="goTopBar">
+      <a class="goTop" href="javascript:void(0);">
+       回TOP
+      </a>
+     </div>
+     <!-- block_S end -->
+    </div>
+    <div class="layout-east">
+     <!-- 快捷功能列 start-->
+     <ul class="toolbar" id="toolbar">
+      <li _value="cart" class="toolbar_click">
+       <a class="ico cart" href="https://ecssl.pchome.com.tw/sys/cflow/fsindex/BigCar/BIGCAR/ItemList">
+        購物車
+        <span class="amount unblock">
+        </span>
+       </a>
+       <a class="msg" href="https://ecssl.pchome.com.tw/sys/cflow/fsindex/BigCar/BIGCAR/ItemList">
+        購物車
+       </a>
+      </li>
+      <li _value="coupon" class="toolbar_click">
+       <a class="ico coupon" href="https://ecvip.pchome.com.tw/web/coupon">
+        折價券
+       </a>
+       <a class="msg" href="https://ecvip.pchome.com.tw/web/coupon">
+        折價券
+       </a>
+      </li>
+      <li _value="browse" class="toolbar_click" id="BrowseRecord">
+       <a class="ico browse" href="https://ecvip.pchome.com.tw/?0x34492f1d6479dc2feaa556873e30266d81bb15fa30356fe8879db973c636aa08" target="_blank">
+        瀏覽紀錄
+       </a>
+       <a class="msg" href="https://ecvip.pchome.com.tw/?0x34492f1d6479dc2feaa556873e30266d81bb15fa30356fe8879db973c636aa08" id="RecordTag" target="_blank">
+        瀏覽紀錄
+       </a>
+       <dl class="overlay_browse" id="RecordBlock">
+        <dt>
+         瀏覽紀錄
+        </dt>
+        <dd>
+         <dl id="RecordList">
+         </dl>
+         <a _value="browse-more" class="toolbar_click" href="https://ecvip.pchome.com.tw/?0x34492f1d6479dc2feaa556873e30266d81bb15fa30356fe8879db973c636aa08" id="RecordFooter" target="_blank">
+          more
+         </a>
+        </dd>
+       </dl>
+      </li>
+      <li _value="trace" class="toolbar_click">
+       <a class="ico trace" href="https://ecvip.pchome.com.tw/?0x34492f1d6479dc2f011f08460682ac86a5dda635af63aefcc9eb482c6546ef771ad5d890bbfd0bda" target="_blank">
+        追蹤清單
+       </a>
+       <a class="msg" href="https://ecvip.pchome.com.tw/?0x34492f1d6479dc2f011f08460682ac86a5dda635af63aefcc9eb482c6546ef771ad5d890bbfd0bda" target="_blank">
+        追蹤清單
+       </a>
+      </li>
+      <li _value="top" class="toolbar_click">
+       <span class="ico gotop goTop">
+        回TOP
+       </span>
+       <span class="msg goTop">
+        回TOP
+       </span>
+      </li>
+     </ul>
+     <!-- 快捷功能列 end-->
+    </div>
+   </div>
+   <!-- CONTENT end -->
+   <!-- FOOTER start -->
+   <div class="ecsite-footer" id="FOOTER">
+   </div>
+   <!-- FOOTER end -->
+   <!--購物車 start-->
+   <div class="site_cart" id="cart">
+    <span class="msg unblock" id="CartLoader">
+     加入購物車中…
+    </span>
+    <a _value="cartbelow" class="cart cart_click" href="https://ecssl.pchome.com.tw/sys/cflow/fsindex/BigCar/BIGCAR/ItemList" id="CartBox" style="display:none">
+     <span class="price">
+     </span>
+     <span class="amount">
+     </span>
+     <span class="check">
+      結帳&gt;
+     </span>
+    </a>
+   </div>
+   <!--購物車 end-->
+   <!-- feedbackBox start -->
+   <div class="c-feedbackBox c-feedbackBox--success">
+    <div class="c-feedbackBox__body">
+     <p class="c-feedbackBox__title">
+      感謝您的寶貴意見！
+     </p>
+     <i class="o-icon o-icon--good">
+     </i>
+    </div>
+   </div>
+   <div class="c-feedbackBox c-feedbackBox--options" id="feedbackBox">
+    <div class="c-feedbackBox__head">
+     <span class="c-feedbackBox__close" id="ignoreFeedbackBox">
+      <i class="o-icon o-icon--close">
+      </i>
+     </span>
+    </div>
+    <div class="c-feedbackBox__body">
+     <i class="o-icon o-icon--boxman">
+     </i>
+     <div class="c-feedbackBox__text">
+      <p class="c-feedbackBox__subTitle">
+       幫助我們變得更好
+      </p>
+      <p class="c-feedbackBox__title">
+       有找到你要的東西嗎？
+      </p>
+     </div>
+    </div>
+    <div class="c-feedbackBox__foot">
+     <ul class="c-feedbackBox__tool">
+      <li>
+       <button class="btn btn-secondary" id="feedbackPositive">
+        有
+       </button>
+      </li>
+      <li>
+       <button class="btn btn-secondary" id="feedbackNegative">
+        沒有
+       </button>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="c-feedbackBox c-feedbackBox--question">
+    <div class="c-feedbackBox__body">
+     <div class="c-feedbackBox__text">
+      <p class="c-feedbackBox__title">
+       很抱歉，帶給您不好的體驗。
+      </p>
+      <p class="c-feedbackBox__subTitle">
+       請告訴我們更多資訊，PChome 24h 團隊將持續蒐集使用者心聲，並優化整體服務體驗。
+      </p>
+     </div>
+     <div class="c-feedbackBox__inputform">
+      <dl class="c-feedbackBox__fieldset">
+       <dt>
+        您為這次搜尋體驗的評分（準確百分比）為？
+       </dt>
+       <dd>
+        <ul class="c-feedbackBox__radio">
+         <li>
+          <label htmlfor="seventy">
+           <input data-rating="Good" name="feedbackBoxOption" type="radio"/>
+           <span class="c-feedbackBox__option">
+            不完全準確(70%)
+           </span>
+          </label>
+         </li>
+         <li>
+          <label htmlfor="fifty">
+           <input data-rating="NotBad" name="feedbackBoxOption" type="radio"/>
+           <span class="c-feedbackBox__option">
+            部分準確(50%)
+           </span>
+          </label>
+         </li>
+         <li>
+          <label htmlfor="zero">
+           <input data-rating="Bad" name="feedbackBoxOption" type="radio"/>
+           <span class="c-feedbackBox__option">
+            完全不準確(0%)
+           </span>
+          </label>
+         </li>
+        </ul>
+       </dd>
+      </dl>
+      <dl class="c-feedbackBox__fieldset">
+       <dt>
+        您此次搜尋的關鍵字為？（系統已自動帶入）
+       </dt>
+       <dd>
+        <span class="c-feedbackBox__value" id="searchValue">
+         to-be-replace
+        </span>
+       </dd>
+      </dl>
+      <dl class="c-feedbackBox__fieldset">
+       <dt>
+        請簡短形容您遇到的狀況
+       </dt>
+       <dd>
+        <textarea maxlength="200" placeholder="例如：想找的品牌、沒看到想找的結果"></textarea>
+        <small>
+         <span id="feedbackTextLength">
+          0
+         </span>
+         /200
+        </small>
+       </dd>
+      </dl>
+     </div>
+    </div>
+    <div class="c-feedbackBox__foot">
+     <ul class="c-feedbackBox__tool">
+      <li>
+       <button class="btn btn-secondary" id="skipFeedbackBox">
+        略過
+       </button>
+      </li>
+      <li>
+       <button class="btn btn-primary" id="submitFeedbackBox">
+        送出
+       </button>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <!-- feedbackBox end -->
+  </div>
+  <div class="ie8-recommend unblock">
+   <span class="overlay-shadow">
+   </span>
+   <div class="overlay-lightbox">
+    <p>
+     為提升交易安全，建議您
+     <span class="msg">
+      使用下列瀏覽器
+     </span>
+     ，即可順利購買。
+     <br/>
+     請您先檢查電腦是否已安裝，如未安裝可點選圖示進行下載。
+    </p>
+    <ul class="list_browser">
+     <li>
+      <a class="chrome" href="https://www.google.com.tw/chrome/browser/desktop/">
+       下載Chrome瀏覽器
+      </a>
+     </li>
+     <li>
+      <a class="firefox" href="https://www.mozilla.org/zh-TW/firefox/new/">
+       下載Firefox瀏覽器
+      </a>
+     </li>
+    </ul>
+    <ul class="bar_tool">
+     <li>
+      <span class="ui-btn b-submit">
+       確定
+      </span>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </body>
+</html>

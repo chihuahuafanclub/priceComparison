@@ -1,0 +1,47 @@
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 24px;
+}
+
+@media (max-device-width: 576px) {
+    h6 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
+
+/* 平板和小型平面顯示器 */
+@media (min-device-width: 577px) and (max-device-width: 768px) {
+    h6 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+/* 標準桌面顯示器 */
+@media (min-device-width: 769px) and (max-device-width: 992px) {
+    h6 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* 大型桌面顯示器和高解析度螢幕 */
+@media (min-device-width: 993px) {
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}

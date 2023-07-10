@@ -1,0 +1,79 @@
+.about-container-auto {
+    background-color: #f3f3f3;
+    padding: 10px 0;
+    min-height: calc(85vh);
+    display: flex;
+
+}
+
+.about-container-md {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+article {
+    color: #666;
+    line-height: 2;
+    max-width: 780px;
+}
+
+h1 {
+    color: #000;
+    font-weight: 700;
+    max-width: 780px;
+    text-align: center;
+}
+
+.about-article-p {
+    line-height: 2;
+    padding-top: 60px;
+}
+
+/* 較小的行動裝置（如手機）*/
+@media (max-device-width: 576px) {
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .about-article-p {
+        font-size: 22px;
+    }
+}
+
+/* 平板和小型平面顯示器 */
+@media (min-device-width: 577px) and (max-device-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .about-article-p {
+        font-size: 20px;
+    }
+}
+
+/* 標準桌面顯示器 */
+@media (min-device-width: 769px) and (max-device-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .about-article-p {
+        font-size: 18px;
+    }
+}
+
+/* 大型桌面顯示器和高解析度螢幕 */
+@media (min-device-width: 993px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .about-article-p {
+        font-size: 16px;
+    }
+}

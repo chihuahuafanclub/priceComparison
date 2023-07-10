@@ -1,4 +1,5 @@
-import React from "react";
+import '../css/Footer.css';
+
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 function Footer() {
@@ -7,19 +8,9 @@ function Footer() {
             <section className='d-flex justify-content-center border-bottom'>
                 <MDBContainer className='text-center text-md-start mt-5'>
                     <MDBRow className='mt-3'>
-                        <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>
-                                <MDBIcon icon="gem" className="me-3" />
-                                網站名稱
-                            </h6>
+                        <MDBCol md="3" xl="2" className='mx-auto mb-4'>
                             <p>
-                                請把網站介紹寫這裡。
-                            </p>
-                        </MDBCol>
-
-                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <p>
-                                <a href='/about' className='text-reset'>
+                                <a href='/關於我們' className='text-reset'>
                                     關於我們
                                 </a>
                             </p>
@@ -30,7 +21,7 @@ function Footer() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+                        <MDBCol md="3" xl="2" className='mx-auto mb-4'>
                             <p>
                                 <a href='#!' className='text-reset'>
                                     常見問題
@@ -53,7 +44,7 @@ function Footer() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+                        <MDBCol md="6" xl="4" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>聯絡我們</h6>
                             <p>
                                 <MDBIcon icon="home" className="me-3" />
@@ -72,7 +63,7 @@ function Footer() {
                 </MDBContainer>
             </section>
 
-            <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+            <div className='text-center p-4 footer-copyright'>
                 © 2023 Chihuahua Fan Club
             </div>
         </MDBFooter>
