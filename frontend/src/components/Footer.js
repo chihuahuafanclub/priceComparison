@@ -1,5 +1,4 @@
 import '../css/Footer.css';
-
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 function Footer() {
@@ -10,35 +9,30 @@ function Footer() {
                     <MDBRow className='mt-3'>
                         <MDBCol md="3" xl="2" className='mx-auto mb-4'>
                             <p>
-                                <a href='/關於我們' className='text-reset'>
-                                    關於我們
+                                <a href='/常見問題' className='text-reset'>
+                                    常見問題
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
-                                    加入我們
+                                <a href='/意見反映' className='text-reset'>
+                                    意見反映
                                 </a>
                             </p>
                         </MDBCol>
 
                         <MDBCol md="3" xl="2" className='mx-auto mb-4'>
                             <p>
-                                <a href='#!' className='text-reset'>
-                                    常見問題
+                                <a href='關於我們' className='text-reset'>
+                                    關於我們
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
-                                    意見反映
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='/服務條款' className='text-reset'>
                                     服務條款
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='/隱私權政策' className='text-reset'>
                                     隱私權政策
                                 </a>
                             </p>
@@ -62,10 +56,6 @@ function Footer() {
                     </MDBRow>
                 </MDBContainer>
             </section>
-
-            <div className='text-center p-4 footer-copyright'>
-                © 2023 Chihuahua Fan Club
-            </div>
         </MDBFooter>
     )
 }

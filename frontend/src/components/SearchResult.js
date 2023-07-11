@@ -1,7 +1,8 @@
+import '../css/SearchResult.css';
 import { useLocation } from 'react-router-dom';
-import '../css/SearchResult.css'
 import Search from "./Search";
 import Container from 'react-bootstrap/Container';
+import Statement from './Statement';
 
 function SearchResult() {
     const location = useLocation();
@@ -14,20 +15,30 @@ function SearchResult() {
         <div>
             <Search />
             <Container>
-                <p>「{keyword}」 商品搜尋結果共 " {count} " 筆資料</p>
+                <p className='searchresult-count'>「{keyword}」 商品搜尋結果共 " {count} " 筆資料</p>
                 <ol>
                     {dataparse.filter(item => !item.count).map(item => (
-                        <li key={item.name}>
-                            <span>
-                                <img src={`https://cs-a.ecimg.tw/${item.pics}`} />
-                            </span>
-                            <span className='items_container'>
-                                {item.name}
-                            </span>
+                        <li>
+                            <div className='row'>
+                                <div className='col col-lg-2'>
+                                    <img src={`https://cs-a.ecimg.tw/${item.pics}`} />
+                                </div>
+                                <div className='col'>
+                                    <div>
+                                        <a>
+                                            {item.name}
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <p>${item.price}</p>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     ))}
                 </ol>
             </Container>
+            <Statement />
         </div>
     );
 }

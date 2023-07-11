@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Search.css';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -27,13 +27,13 @@ function Search() {
 
     return (
         <div>
-            <Container fluid='auto' className='home-container-md'>
+            <Container fluid='auto'>
                 <Container>
-                    <Form className="d-flex form-control-lg form" onSubmit={handleSubmit}>
+                    <Form className="d-flex form-control-lg search-form" onSubmit={handleSubmit}>
                         <Form.Control
                             type="search"
-                            placeholder="請輸入搜索關鍵字，例如：RTX-4090"
-                            className="me-2 form-control"
+                            placeholder="請輸入搜尋關鍵字，例如：RTX-4090"
+                            className="me-2 search-form-control"
                             aria-label="Search"
                             onChange={(event) => setKeyword(event.target.value)}
                         />

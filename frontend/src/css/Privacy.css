@@ -1,4 +1,4 @@
-.about-container-auto {
+.privacy-container-auto {
     background-color: #f3f3f3;
     padding: 10px 0;
     min-height: calc(85vh);
@@ -6,7 +6,7 @@
 
 }
 
-.about-container-md {
+.privacy-container-md {
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -28,11 +28,19 @@ h1 {
     text-align: center;
 }
 
-.about-article {
+h2 {
+    color: #000;
+    font-weight: 700;
+    max-width: 780px;
+    text-align: left;
     padding-top: 60px;
 }
 
-.about-article p {
+.privacy-article {
+    padding-top: 60px;
+}
+
+.privacy-article p {
     line-height: 2;
 }
 
@@ -41,8 +49,10 @@ h1 {
     h1 {
         font-size: 34px;
     }
-
-    .about-article p {
+    h2 {
+        font-size: 24px;
+    }
+    .privacy-article p {
         font-size: 22px;
     }
 }
@@ -52,8 +62,10 @@ h1 {
     h1 {
         font-size: 32px;
     }
-
-    .about-article p {
+    h2 {
+        font-size: 22px;
+    }
+    .privacy-article p {
         font-size: 20px;
     }
 }
@@ -63,8 +75,10 @@ h1 {
     h1 {
         font-size: 30px;
     }
-
-    .about-article p {
+    h2 {
+        font-size: 20px;
+    }
+    .privacy-article p {
         font-size: 18px;
     }
 }
@@ -74,8 +88,10 @@ h1 {
     h1 {
         font-size: 28px;
     }
-
-    .about-article p {
+    h2 {
+        font-size: 18px;
+    }
+    .privacy-article p {
         font-size: 16px;
     }
 }
