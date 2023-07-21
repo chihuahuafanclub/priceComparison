@@ -1,12 +1,13 @@
+import Container from 'react-bootstrap/Container';
 import Search from "./Search";
 import Statement from "./Statement";
 
 function Category() {
     return (
-        <div>
+        <Container>
             <Search />
             <Statement />
-        </div>
+        </Container>
     );
 }
 

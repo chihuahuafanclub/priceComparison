@@ -1,9 +1,8 @@
 .about-container-auto {
     background-color: #f3f3f3;
     padding: 10px 0;
-    min-height: calc(85vh);
+    min-height: calc(100vh);
     display: flex;
-
 }
 
 .about-container-md {
@@ -17,13 +16,11 @@
 
 article {
     color: #666;
-    line-height: 2;
     max-width: 780px;
 }
 
-h1 {
+article h1 {
     color: #000;
-    font-weight: 700;
     max-width: 780px;
     text-align: center;
 }

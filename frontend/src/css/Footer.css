@@ -1,7 +1,13 @@
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
 @media (max-device-width: 576px) {
     h6 {
         font-size: 26px;
     }
+
     p {
         font-size: 22px;
     }
@@ -12,6 +18,7 @@
     h6 {
         font-size: 24px;
     }
+
     p {
         font-size: 20px;
     }
@@ -22,6 +29,7 @@
     h6 {
         font-size: 22px;
     }
+
     p {
         font-size: 18px;
     }
@@ -32,6 +40,7 @@
     h6 {
         font-size: 20px;
     }
+
     p {
         font-size: 16px;
     }

@@ -1,9 +1,9 @@
 .privacy-container-auto {
     background-color: #f3f3f3;
     padding: 10px 0;
-    min-height: calc(85vh);
+    min-height: calc(100vh);
     display: flex;
-
+    flex-grow: 1;
 }
 
 .privacy-container-md {
@@ -17,26 +17,24 @@
 
 article {
     color: #666;
-    line-height: 2;
     max-width: 780px;
 }
 
-h1 {
+article h1 {
     color: #000;
-    font-weight: 700;
     max-width: 780px;
     text-align: center;
 }
 
-h2 {
+.privacy-article {
+    padding-top: 60px;
+}
+
+.privacy-article h2 {
     color: #000;
     font-weight: 700;
     max-width: 780px;
     text-align: left;
-    padding-top: 60px;
-}
-
-.privacy-article {
     padding-top: 60px;
 }
 
@@ -49,9 +47,11 @@ h2 {
     h1 {
         font-size: 34px;
     }
+
     h2 {
         font-size: 24px;
     }
+
     .privacy-article p {
         font-size: 22px;
     }
@@ -62,9 +62,11 @@ h2 {
     h1 {
         font-size: 32px;
     }
+
     h2 {
         font-size: 22px;
     }
+
     .privacy-article p {
         font-size: 20px;
     }
@@ -75,9 +77,11 @@ h2 {
     h1 {
         font-size: 30px;
     }
+
     h2 {
         font-size: 20px;
     }
+
     .privacy-article p {
         font-size: 18px;
     }
@@ -88,9 +92,11 @@ h2 {
     h1 {
         font-size: 28px;
     }
+
     h2 {
         font-size: 18px;
     }
+
     .privacy-article p {
         font-size: 16px;
     }

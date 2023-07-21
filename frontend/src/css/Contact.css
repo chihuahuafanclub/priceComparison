@@ -1,0 +1,36 @@
+.contact-container-auto {
+    background-color: #f3f3f3;
+    padding: 10px 0;
+    min-height: calc(100vh);
+    height: auto;
+    display: flex;
+}
+
+.contact-container-md {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+article {
+    color: #666;
+    max-width: 780px;
+    min-width: 696px;
+}
+
+article h1 {
+    color: #000;
+    max-width: 780px;
+    text-align: center;
+}
+
+.form-article {
+    padding-top: 60px;
+}
+
+.form {
+    padding-bottom: 20px;
+}

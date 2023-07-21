@@ -1,38 +1,50 @@
+.navbar .brand {
+    font-weight: 700;
+}
+
+.navbar .link {
+    font-weight: 700;
+}
+
 @media (max-device-width: 576px) {
-    .navbar .brand{
+    .navbar .brand {
         font-size: 34px;
     }
-    .navbar .link{
+
+    .navbar .link {
         font-size: 22px;
     }
 }
 
 /* 平板和小型平面顯示器 */
 @media (min-device-width: 577px) and (max-device-width: 768px) {
-    .navbar .brand{
+    .navbar .brand {
         font-size: 32px;
     }
-    .navbar .link{
+
+    .navbar .link {
         font-size: 20px;
     }
 }
 
 /* 標準桌面顯示器 */
 @media (min-device-width: 769px) and (max-device-width: 992px) {
-    .navbar .brand{
+    .navbar .brand {
         font-size: 30px;
     }
-    .navbar .link{
+
+    .navbar .link {
         font-size: 18px;
     }
 }
 
 /* 大型桌面顯示器和高解析度螢幕 */
 @media (min-device-width: 993px) {
-    .navbar .brand{
+    .navbar .brand {
         font-size: 28px;
     }
-    .navbar .link{
+
+    .navbar .link {
         font-size: 16px;
     }
 }

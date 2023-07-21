@@ -1,14 +1,11 @@
-import '../css/HomeBody.css';
-import Container from 'react-bootstrap/Container';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../css/HomeBody.css";
+import Container from "react-bootstrap/Container";
 
 function HomeBody() {
     return (
-        <div>
-            <Container fluid="auto" className='home-container-auto'>
-                <Container fluid='md' className='home-container-md'>
-                </Container>
-            </Container>
-        </div >
+        <Container className="home-container">
+        </Container>
     );
 }
 
