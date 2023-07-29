@@ -1,13 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/SearchResult.css";
+import "./css/index.css";
 import { useLocation } from "react-router-dom";
-import Search from "./Search";
+import Search from "../../components/Search";
 import Container from "react-bootstrap/Container";
-import Statement from "./Statement";
+import Statement from "../../components/Statement";
 
 function SearchResult() {
     const location = useLocation();
-
     const keyword = location.state.keyword;
     const data = location.state.data;
     const dataparse = JSON.parse(data);

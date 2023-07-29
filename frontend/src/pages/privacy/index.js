@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/Privacy.css";
+import "./css/index.css";
 import Container from "react-bootstrap/Container";
 
 function Privacy() {

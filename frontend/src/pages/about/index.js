@@ -1,4 +1,4 @@
-import '../css/About.css';
+import './css/index.css';
 import Container from 'react-bootstrap/Container';
 
 function About() {
