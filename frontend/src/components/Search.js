@@ -10,21 +10,13 @@ function Search() {
     const [keyword, setKeyword] = useState("");
     const navigate = useNavigate();
 
-    const fetchData = async () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
         try {
-            const response = await fetch(`http://123.241.65.154:8000/api/search/?keyword=${keyword}`);
-            const data = await response.json();
-            if (response.ok) {
-                navigate(`/s/?q=${keyword}`, { state: { keyword: keyword, data: data } });
-            }
+            navigate(`/s/?q=${keyword}`);
         } catch (error) {
             console.error(error);
         }
-    };
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        fetchData();
     };
 
     return (

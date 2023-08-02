@@ -26,7 +26,7 @@ function Contact() {
                                 <Form.Control
                                     type="text"
                                     value={name}
-                                    onChange={(e) => setName(e.target.value)}
+                                    onChange={(event) => setName(event.target.value)}
                                     required
                                 />
                             </Form.Group>
@@ -35,7 +35,7 @@ function Contact() {
                                 <Form.Control
                                     type="email"
                                     value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    onChange={(event) => setEmail(event.target.value)}
                                     required
                                 />
                             </Form.Group>
@@ -45,7 +45,7 @@ function Contact() {
                                     as="textarea"
                                     rows={4}
                                     value={feedback}
-                                    onChange={(e) => setFeedback(e.target.value)}
+                                    onChange={(event) => setFeedback(event.target.value)}
                                     required
                                 />
                             </Form.Group>

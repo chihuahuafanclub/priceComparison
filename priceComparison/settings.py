@@ -7,7 +7,7 @@ SECRET_KEY = "django-insecure-7ph1s-$(kdag5w9m7z(#d%d#7zo9kymukcjqvabxmr!xt#h=%s
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['123.241.65.154']
+ALLOWED_HOSTS = ["123.241.65.154"]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -17,12 +17,12 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "backend",
-    'corsheaders',
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
-    'django.middleware.common.CommonMiddleware',
+    "django.middleware.common.CommonMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -32,17 +32,17 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://123.241.65.154:3000',
+    "http://localhost:3000",
+    "http://123.241.65.154:3000",
 ]
 
 CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT'
+    "DELETE",
+    "GET",
+    "OPTIONS",
+    "PATCH",
+    "POST",
+    "PUT"
 ]
 
 CORS_ALLOW_HEADERS = [

@@ -4,5 +4,5 @@ from backend.views import get_data
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('api/search/', get_data, name='get_data' ),
+    path("api/search/", get_data, name="get_data" ),
 ]

@@ -32,23 +32,23 @@ var arrReserve   = [] ;
 var arrMCRCate   = [80,87,89,495,505,506,729,779,780,782,783,784,785,802,863,865,867,944,945,949,950,1133,1134,1135,1141,1206,1248,1280,1329,1391,1392,1394,1395,1396,1397,1398,928,929,930,1131,1132,1136,1399,1400,1401,1402,1403,1404,1405,263,412] ;
 
 var CloudSet   = {
-    'startDtm' : '2021/11/05 14:00:00',
-    'endDtm'   : '2022/01/25 10:00:00',
-    'arrRange' : ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    "startDtm" : "2021/11/05 14:00:00",
+    "endDtm"   : "2022/01/25 10:00:00",
+    "arrRange" : ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 } ;
 
 var SwitchTool = {
-    'prodapi_main'    : 'domain_cloudflare',
-    'prodapi_button'  : 'domain_cloudflare',
-    'prodapi_gift'    : 'domain_cloudflare',
-    'prodapi_spec'    : 'domain_cloudflare',
-    'prodapi_promo'   : 'domain_cloudflare',
-    'prodapi_coupons' : 'domain_cloudflare',
-    'cateapi_store'   : 'domain_cloudflare',
-    'cateapi_region'  : 'domain_cloudflare',
-    'adskeyword'      : 'domain_cloudflare',
-    'cart_snapup'     : 'domain_ecssl',
-    'cart_modify'     : 'domain_ecssl'
+    "prodapi_main"    : "domain_cloudflare",
+    "prodapi_button"  : "domain_cloudflare",
+    "prodapi_gift"    : "domain_cloudflare",
+    "prodapi_spec"    : "domain_cloudflare",
+    "prodapi_promo"   : "domain_cloudflare",
+    "prodapi_coupons" : "domain_cloudflare",
+    "cateapi_store"   : "domain_cloudflare",
+    "cateapi_region"  : "domain_cloudflare",
+    "adskeyword"      : "domain_cloudflare",
+    "cart_snapup"     : "domain_ecssl",
+    "cart_modify"     : "domain_ecssl"
 } ;
     </script>
     <!-- End setting Manager -->
@@ -56,11 +56,11 @@ var SwitchTool = {
     <script>
      if (!SearchBot.isBot)
 {
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TKSM5PF');
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+  new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+  "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,"script","dataLayer","GTM-TKSM5PF");
 }
     </script>
     <!-- End Google Tag Manager -->

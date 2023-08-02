@@ -1,5 +1,33 @@
-.searchresult-count{
+.searchresult-container-auto{
+    padding-bottom: 12px;
+}
+
+.searchresult-count {
     padding-left: 28px;
+}
+
+.searchresult-sort {
+    padding-left: 38px;
+    padding-bottom: 12px;
+}
+
+.searchresult-sort a {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.active-link {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.inactive-link {
+    color: black;
+}
+
+.container-wrapper {
+    max-height: calc(100vh);
+    overflow-y: scroll;
 }
 
 ol {
@@ -18,7 +46,7 @@ li {
     background-color: blanchedalmond;
     padding: 10px;
     padding-bottom: 3%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 img {
